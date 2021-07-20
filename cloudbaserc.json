@@ -13,6 +13,9 @@
           "uploadType": "package",
           "containerPort": 80,
           "envVariables": {
+            "ADMIN_TOKEN": "T3GkianpKZbJ9K8s",
+            "SIGNUP_ALLOWED": "false",
+            "INVITATIONS_ALLOWED": "true",
             "WEBSOCKET_ENABLED": "false",
             "ENABLE_DB_WAL": "false",
             "DB_NAME": "bitwarden",
